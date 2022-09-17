@@ -1,1 +1,22 @@
 @import "./utils/variables";
+@import "./utils/_visually-hidden";
+@import "./utils/is-hidden";
+
+@import "./base/common";
+@import "./base/bg-color-section";
+@import "./base/section";
+@import "./base/container";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/works";
+@import "./layout/team";
+@import "./layout/customers";
+@import "./layout/footer";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-projects";
+
+@import "./components/backdop";
+@import "./components/_modal-window";
+@import "./components/modal-form";
