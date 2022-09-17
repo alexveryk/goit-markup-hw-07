@@ -732,9 +732,7 @@ img.projects-img {
   padding: 12px 12px 12px 42px;
   transition: border var(--duration-and-timing-function);
 }
-
-.modal-form-input:focus,
-.modal-form__comment:focus {
+.modal-form-input:focus {
   outline: none;
   border: 1px solid var(--accent-color);
   transition: border var(--duration-and-timing-function);
@@ -772,6 +770,11 @@ img.projects-img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--placeholder-color);
+}
+.modal-form__comment:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
+  transition: border var(--duration-and-timing-function);
 }
 
 .modal-btn {
