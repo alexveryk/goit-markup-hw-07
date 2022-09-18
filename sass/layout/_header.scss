@@ -23,14 +23,14 @@
   align-items: center;
 }
 
-.menu-list {
+.menu__list {
   display: flex;
   align-items: center;
   gap: 50px;
   margin-left: 93px;
 }
 
-.menu-list__link {
+.menu__link {
   display: block;
   font-weight: 500;
   line-height: 1.14;
@@ -46,7 +46,7 @@
   }
 }
 
-.menu-list__link_current {
+.menu__link_current {
   position: relative;
   color: var(--accent-color);
   &::after {
@@ -63,14 +63,14 @@
   }
 }
 
-.contacts-list {
+.contacts {
   display: flex;
   align-items: center;
   gap: 50px;
   margin-left: auto;
 }
 
-.contacts-list__link {
+.contacts__link {
   display: flex;
   align-items: center;
   font-family: "Roboto";
@@ -87,11 +87,11 @@
   }
 }
 
-.contacts-list__icon {
+.contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }
-.contacts-list__item {
+.contacts__item {
   display: flex;
   align-items: center;
 }

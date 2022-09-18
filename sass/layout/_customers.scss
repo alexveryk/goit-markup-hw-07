@@ -4,18 +4,18 @@
   color: var(--main-color-page);
 }
 
-.customers-list {
+.customers__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.customers-list__item {
+.customers__item {
   flex-basis: calc((100% - 150px) / 6);
 }
 
-.customers-list__link {
+.customers__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,6 +32,6 @@
   }
 }
 
-.customers-list__icon {
+.customers__icon {
   fill: currentColor;
 }

@@ -1,9 +1,9 @@
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
 
-.features-list__title {
+.features__sub-title {
   font-weight: 700;
   font-size: inherit;
   line-height: 1.14;
@@ -13,12 +13,12 @@
   padding-top: 30px;
 }
 
-.features-list__text {
+.features__text {
   line-height: 1.71;
   color: var(--second-color-page);
 }
 
-.features-list__item {
+.features__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -26,13 +26,13 @@
   padding-bottom: 0;
 }
 
-.features-list__icon {
+.features__icon {
   display: block;
   width: 70px;
   height: 70px;
 }
 
-.features-list__container {
+.features__container {
   display: flex;
   height: 120px;
   align-items: center;

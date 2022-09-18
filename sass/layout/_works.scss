@@ -2,20 +2,20 @@
   margin-bottom: 50px;
 }
 
-.works-list {
+.works__list {
   display: flex;
   gap: 30px;
 }
 
-.works-list__item {
+.works__item {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.works-list__thumb {
+.works__thumb {
   position: relative;
 }
 
-.works-list__thumb > .works-list__label {
+.works__thumb > .works__label {
   position: absolute;
   bottom: 0;
   right: 0;

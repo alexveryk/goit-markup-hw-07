@@ -3,9 +3,13 @@
 @import "./utils/is-hidden";
 
 @import "./base/common";
-@import "./base/bg-color-section";
-@import "./base/section";
-@import "./base/container";
+@import "./base/reset";
+
+@import "./components/section";
+@import "./components/container";
+@import "./components/backdop";
+@import "./components/_modal-window";
+@import "./components/modal-form";
 
 @import "./layout/header";
 @import "./layout/hero";
@@ -16,7 +20,3 @@
 @import "./layout/footer";
 @import "./layout/portfolio-filter";
 @import "./layout/portfolio-projects";
-
-@import "./components/backdop";
-@import "./components/_modal-window";
-@import "./components/modal-form";
